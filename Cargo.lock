@@ -1192,6 +1192,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "php-lsp-wasm"
+version = "0.1.0"
+dependencies = [
+ "php-lsp",
+ "serde",
+ "serde_json",
+ "tower-lsp-server",
+]
+
+[[package]]
 name = "php-rs-parser"
 version = "0.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
